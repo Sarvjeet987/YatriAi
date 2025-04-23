@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fest Management</title>
+</head>
+<body>
+  <h1>Fest Events</h1>
+  <div id="eventList"></div>
+
+  <h2>Add Event</h2>
+  <form id="eventForm">
+    <input type="text" id="name" placeholder="Event Name" required />
+    <input type="text" id="date" placeholder="Date" required />
+    <textarea id="description" placeholder="Description"></textarea>
+    <button type="submit">Add</button>
+  </form>
+
+  <script>
+    async function fetchEvents() {
+      const res = await fetch('http://localhost:5000/events');
+      const events = await res.json();
+      const list = document.getElementById('eventList');
+      list.innerHTML = events.map(e =>
+        `<p>${e.name} - ${e.date} <button onclick="deleteEvent('${e._id}')">Delete</button></p>`
+      ).join('');
+    }
+
+    document.getElementById('eventForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const date = document.getElementById('date').value;
+      const description = document.getElementById('description').value;
+
+      await fetch('http://localhost:5000/events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, date, description })
+      });
+
+      fetchEvents();
+    });
+
+    async function deleteEvent(id) {
+      await fetch(`http://localhost:5000/events/${id}`, { method: 'DELETE' });
+      fetchEvents();
+    }
+
+    fetchEvents();
+  </script>
+</body>
+</html>
