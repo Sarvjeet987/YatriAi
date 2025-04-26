@@ -7,25 +7,25 @@ YatriAI | AI Agent
 
 
 
-Topic - 
-1> The Future of Customer Service
-2>Create an AI Agent
+Topic - </br>
+1> The Future of Customer Service</br>
+2>Create an AI Agent</br>
 
-3>Demo YatriAI Agents in action  ---
-A>Phone Agent
-<B> Chatbot Agent 
-<C>WhatsApp 
-Dd>Voice Agent 
-<E>Messenger 
-<F>Agent App
-<G>Standalone Agent 
-<H>Kiosk Agent
+3>Demo YatriAI Agents in action  ---</br>
+A>Phone Agent</br>
+<B> Chatbot Agent </br>
+<C>WhatsApp </br>
+Dd>Voice Agent </br>
+<E>Messenger </br>
+<F>Agent App</br>
+<G>Standalone Agent </br>
+<H>Kiosk Agent</br>
 
-4>7,000+AI Agent Templates
-5>Boost your AI Agents with Powerful Tools
-6>Mobile App for Human Escalation
-7>Real Businesses. Real Results.
-8>FAQ
+4>7,000+AI Agent Templates</br>
+5>Boost your AI Agents with Powerful Tools</br>
+6>Mobile App for Human Escalation</br>
+7>Real Businesses. Real Results.</br>
+8>FAQ</br>
 
 
 #Technology - HTML | CSS |  BOOTSTRAP | JAVA SCRIPT
