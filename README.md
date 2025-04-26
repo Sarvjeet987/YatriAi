@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="Images/Home.png" width="300"/>
 </p>
