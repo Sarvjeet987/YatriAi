@@ -1,4 +1,4 @@
-<div style="background-image: url('images/screenshot.png'); background-size: cover; padding: 50px;">
+<div style="background-image: url('Images/Home.png'); background-size: cover; padding: 50px;">
 
 YatriAI | AI Agent
 #YatriAI Agents are powerful automated customer service tools that provide real-time assistance, answer user queries, and guide customers through processes like form-filling and troubleshooting. By offering personalized, conversational AI interactions and 24-7 availability, they enhance customer satisfaction, streamline support workflows, and reduce response times, ensuring a seamless and efficient customer experience.
