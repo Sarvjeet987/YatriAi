@@ -13,13 +13,13 @@ Topic - </br>
 
 3>Demo YatriAI Agents in action  ---</br>
 A>Phone Agent</br>
-<B> Chatbot Agent </br>
-<C>WhatsApp </br>
-Dd>Voice Agent </br>
-<E>Messenger </br>
-<F>Agent App</br>
-<G>Standalone Agent </br>
-<H>Kiosk Agent</br>
+B> Chatbot Agent </br>
+C>WhatsApp </br>
+D>Voice Agent </br>
+E>Messenger </br>
+F>Agent App</br>
+G>Standalone Agent </br>
+H>Kiosk Agent</br>
 
 4>7,000+AI Agent Templates</br>
 5>Boost your AI Agents with Powerful Tools</br>
