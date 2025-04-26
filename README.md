@@ -1,4 +1,4 @@
-<img src="images/screenshot.png" width="500"/>
+<img src="Images/Home.png" width="500"/>
 
 YatriAI | AI Agent
 #YatriAI Agents are powerful automated customer service tools that provide real-time assistance, answer user queries, and guide customers through processes like form-filling and troubleshooting. By offering personalized, conversational AI interactions and 24-7 availability, they enhance customer satisfaction, streamline support workflows, and reduce response times, ensuring a seamless and efficient customer experience.
